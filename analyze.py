@@ -71,7 +71,7 @@ def train_model(benign_folder_path, malicious_folder_path):
     vectorizer = CountVectorizer()
     X = vectorizer.fit_transform(features)
 
-    X_train, X_test, y_train, y_test = train_test_split(X, labels, test_size=0.9, random_state=42)
+    X_train, X_test, y_train, y_test = train_test_split(X, labels, test_size=0.001, random_state=42)
 
     logging.info("Обучение модели...")
     model = MultinomialNB()
