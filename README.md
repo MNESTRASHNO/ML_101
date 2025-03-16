@@ -1,2 +1,4 @@
 # ML_101
-## Hi! Stanislav
+## My test assignment for the PT in the Supply Chains department
+---------------------------------------------------------------------
+## Мое тестовое задание для ПТ в отдел Supply Chains
